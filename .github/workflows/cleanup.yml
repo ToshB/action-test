@@ -1,4 +1,4 @@
-name: CI
+name: Legacy
 
 on: [push]
 
@@ -10,4 +10,4 @@ jobs:
     steps:
     - uses: toshb/legacy-cleanup@releases/v1
       with:
-        milliseconds: 1000
+        milliseconds: horse
