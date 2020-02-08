@@ -1,0 +1,13 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: toshb/legacy-cleanup@releases/v1
+      with:
+        milliseconds: 1000
