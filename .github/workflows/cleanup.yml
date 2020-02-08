@@ -8,6 +8,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: toshb/legacy-cleanup@releases/v1
+    - uses: toshb/legacy-cleanup@releases/v2
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
